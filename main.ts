@@ -1,3 +1,9 @@
 while (true) {
-    console.log("Light Level: " + input.lightLevel())
+    // print("Light Level: " + input.light_level())
+    if (input.lightLevel() >= 125) {
+        light.clear()
+    } else {
+        light.setAll(light.rgb(255, 255, 255))
+    }
+    
 }
